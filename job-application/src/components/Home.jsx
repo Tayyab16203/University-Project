@@ -48,10 +48,10 @@ const Home = () => {
                   <form>
                     <div className="bg-white overflow-hidden rounded-xl md:grid gap-7 lg:gap-10 grid-cols-8 xl:grid-cols-7 items-center">
                       <div className="col-span-2 px-4 md:px-0 md:pl-4 border-r-2 border-gray h-full flex items-center">
-                        <input type="text" className="w-full block !pr-3 py-4 border-b-2 border-gray md:border-0 md-py-4 focus:outline-none bg-left bg-center bg-no-repeat px-8 placeholder:text-[rgb(102,115,127)]" placeholder="Job Title" name="jobTitle" style={{backgroundImage : `url(${search_icon})`}}/>
+                        <input type="text" className="w-full block !pr-3 py-4 border-b-2 border-gray md:border-0 md-py-4 focus:outline-none bg-left bg-no-repeat px-8 placeholder:text-[rgb(102,115,127)]" placeholder="Job Title" name="jobTitle" style={{backgroundImage : `url(${search_icon})`}}/>
                       </div>
                       <div className="col-span-2 px-4 md:px-0 md:pl-4 border-r-2 border-gray h-full flex items-center">
-                        <input type="text" className="w-full block !pr-3 py-4 border-b-2 border-gray md:border-0 md-py-4 focus:outline-none bg-left bg-center bg-no-repeat px-8 placeholder:text-[rgb(102,115,127)]" placeholder="Location" name="location" style={{backgroundImage : `url(${location_icon})`}}/>
+                        <input type="text" className="w-full block !pr-3 py-4 border-b-2 border-gray md:border-0 md-py-4 focus:outline-none bg-left bg-no-repeat px-8 placeholder:text-[rgb(102,115,127)]" placeholder="Location" name="location" style={{backgroundImage : `url(${location_icon})`}}/>
                       </div>
                       <div className="col-span-2 px-4 md:!px-0">
                         <select className="border-0 focus:shadow-none py-3 select2-init text-xxs text-[rgb(102,115,127)] font-normal focus-visible:white focus:outline-none w-full" aria-label="Default select example" name="category">
