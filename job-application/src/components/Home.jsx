@@ -23,6 +23,8 @@ import clock1 from "./assets/homeSection3pic/clock1.svg"
 import blog_img1 from "./assets/homeSection5pic/blog-img-1.webp"
 import blog_img2 from "./assets/homeSection5pic/blog-img-2.webp"
 import blog_img3 from "./assets/homeSection5pic/blog-img-3.webp"
+import CATEGORIES from "../categories"
+import Category from "../pages/category"
 
 const Home = () => {
   return (
@@ -127,144 +129,11 @@ const Home = () => {
             </div>
             {/* section main dev */}
             <div className="grid gap-4 xl:gap-5 xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1">
-              <a className="group text-center p-6 bg-white rounded-lg cursor-pointer">
-                <div className="mb-3 flex justify-center transition-all group-hover:scale-125">
-                  <div className="mb-[-7px]">
-                    <span className="border-box inline-block  bg-none opacity-1 border-0 m-0 p-0 relative max-w-[100%]">
-                      <img src={logo1} alt="img" />
-                    </span>
-                  </div>
-                </div>
-                <h4 className="text-[16px] text-black font-normal mb-2">Bank 1</h4>
-                <p className="text-gray-400 text-[13px] text-normal">0 Job</p>
-              </a>
-              <a className="group text-center p-6 bg-white rounded-lg cursor-pointer">
-                <div className="mb-3 flex justify-center transition-all group-hover:scale-125">
-                  <div className="mb-[-7px]">
-                    <span className="border-box inline-block  bg-none opacity-1 border-0 m-0 p-0 relative max-w-[100%]">
-                      <img src={logo2} alt="img" />
-                    </span>
-                  </div>
-                </div>
-                <h4 className="text-[16px] text-black font-normal mb-2">Commercial/supply</h4>
-                <p className="text-gray-400 text-[13px] text-normal">3 Jobs</p>
-              </a>
-              <a className="group text-center p-6 bg-white rounded-lg cursor-pointer">
-                <div className="mb-3 flex justify-center transition-all group-hover:scale-125">
-                  <div className="mb-[-7px]">
-                    <span className="border-box inline-block  bg-none opacity-1 border-0 m-0 p-0 relative max-w-[100%]">
-                      <img src={logo3} alt="img" />
-                    </span>
-                  </div>
-                </div>
-                <h4 className="text-[16px] text-black font-normal mb-2">Construction/facilities</h4>
-                <p className="text-gray-400 text-[13px] text-normal">3 Jobs</p>
-              </a>
-              <a className="group text-center p-6 bg-white rounded-lg cursor-pointer">
-                <div className="mb-3 flex justify-center transition-all group-hover:scale-125">
-                  <div className="mb-[-7px]">
-                    <span className="border-box inline-block  bg-none opacity-1 border-0 m-0 p-0 relative max-w-[100%]">
-                      <img src={logo4} alt="img" />
-                    </span>
-                  </div>
-                </div>
-                <h4 className="text-[16px] text-black font-normal mb-2">Design/creative</h4>
-                <p className="text-gray-400 text-[13px] text-normal">1 Job</p>
-              </a>
-              <a className="group text-center p-6 bg-white rounded-lg cursor-pointer">
-                <div className="mb-3 flex justify-center transition-all group-hover:scale-125">
-                  <div className="mb-[-7px]">
-                    <span className="border-box inline-block  bg-none opacity-1 border-0 m-0 p-0 relative max-w-[100%]">
-                      <img src={logo5} alt="img" />
-                    </span>
-                  </div>
-                </div>
-                <h4 className="text-[16px] text-black font-normal mb-2">Education training</h4>
-                <p className="text-gray-400 text-[13px] text-normal">0 Job</p>
-              </a>
-              <a className="group text-center p-6 bg-white rounded-lg cursor-pointer">
-                <div className="mb-3 flex justify-center transition-all group-hover:scale-125">
-                  <div className="mb-[-7px]">
-                    <span className="border-box inline-block  bg-none opacity-1 border-0 m-0 p-0 relative max-w-[100%]">
-                      <img src={logo6} alt="img" />
-                    </span>
-                  </div>
-                </div>
-                <h4 className="text-[16px] text-black font-normal mb-2">Engineer/architects</h4>
-                <p className="text-gray-400 text-[13px] text-normal">3 Jobs</p>
-              </a>
-              <a className="group text-center p-6 bg-white rounded-lg cursor-pointer">
-                <div className="mb-3 flex justify-center transition-all group-hover:scale-125">
-                  <div className="mb-[-7px]">
-                    <span className="border-box inline-block  bg-none opacity-1 border-0 m-0 p-0 relative max-w-[100%]">
-                      <img src={logo7} alt="img" />
-                    </span>
-                  </div>
-                </div>
-                <h4 className="text-[16px] text-black font-normal mb-2">Hospitality/travel</h4>
-                <p className="text-gray-400 text-[13px] text-normal">2 Jobs</p>
-              </a>
-              <a className="group text-center p-6 bg-white rounded-lg cursor-pointer">
-                <div className="mb-3 flex justify-center transition-all group-hover:scale-125">
-                  <div className="mb-[-7px]">
-                    <span className="border-box inline-block  bg-none opacity-1 border-0 m-0 p-0 relative max-w-[100%]">
-                      <img src={logo8} alt="img" />
-                    </span>
-                  </div>
-                </div>
-                <h4 className="text-[16px] text-black font-normal mb-2">Electrician/repair</h4>
-                <p className="text-gray-400 text-[13px] text-normal">1 Job</p>
-              </a>
-              <a className="group text-center p-6 bg-white rounded-lg cursor-pointer">
-                <div className="mb-3 flex justify-center transition-all group-hover:scale-125">
-                  <div className="mb-[-7px]">
-                    <span className="border-box inline-block  bg-none opacity-1 border-0 m-0 p-0 relative max-w-[100%]">
-                      <img src={logo9} alt="img" />
-                    </span>
-                  </div>
-                </div>
-                <h4 className="text-[16px] text-black font-normal mb-2">Marketing/sales</h4>
-                <p className="text-gray-400 text-[13px] text-normal">1 Job</p>
-              </a>
-              <a className="group text-center p-6 bg-white rounded-lg cursor-pointer">
-                <div className="mb-3 flex justify-center transition-all group-hover:scale-125">
-                  <div className="mb-[-7px]">
-                    <span className="border-box inline-block  bg-none opacity-1 border-0 m-0 p-0 relative max-w-[100%]">
-                      <img src={logo10} alt="img" />
-                    </span>
-                  </div>
-                </div>
-                <h4 className="text-[16px] text-black font-normal mb-2">It/telecommunication</h4>
-                <p className="text-gray-400 text-[13px] text-normal">8 Jobs</p>
-              </a>
-              <a className="group text-center p-6 bg-white rounded-lg cursor-pointer">
-                <div className="mb-3 flex justify-center transition-all group-hover:scale-125">
-                  <div className="mb-[-7px]">
-                    <span className="border-box inline-block  bg-none opacity-1 border-0 m-0 p-0 relative max-w-[100%]">
-                      <img src={logo11} alt="img" />
-                    </span>
-                  </div>
-                </div>
-                <h4 className="text-[16px] text-black font-normal mb-2">Accounting/finance</h4>
-                <p className="text-gray-400 text-[13px] text-normal">3 Jobs</p>
-              </a>
-              <a className="group text-center p-6 bg-white rounded-lg cursor-pointer">
-                <div className="mb-3 flex justify-center transition-all group-hover:scale-125">
-                  <div className="mb-[-7px]">
-                    <span className="border-box inline-block  bg-none opacity-1 border-0 m-0 p-0 relative max-w-[100%]">
-                      <img src={logo12} alt="img" className="h-[60px] rounded-lg" />
-                    </span>
-                  </div>
-                </div>
-                <h4 className="text-[16px] text-black font-normal mb-2">Mern</h4>
-                <p className="text-gray-400 text-[13px] text-normal">0 Job</p>
-              </a>
+            {CATEGORIES.map((ct) => 
+              (<Category data={ct}/>)
+            )}
             </div>
-            <div className="text-center mt-14">
-              <a className="text-white text-[16px] font-normal transition-all bg-gray-800 px-6 py-2.5 rounded-lg hover:bg-green-600" href="#">
-                Browse All Category
-              </a>
-            </div>
+            <div className="text-center mt-14"><a className="text-white text-[16px] font-medium transition-all bg-gray-800 cursor-pointer px-6 py-2.5 rounded-lg hover:bg-green-600">Browse All Category</a></div>
           </div>
         </section>
         {/* 3rd section */}
