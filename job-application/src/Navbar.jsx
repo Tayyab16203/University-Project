@@ -31,12 +31,12 @@ const Navbar = () => {
             {/* items */}
             <div className=" lg:block xs:hidden">
               <ul className='flex gap-7 xl:gap-9 text-gray-600'>
-                <li><NavLink to='/' className={'font-semibold font-medium text-[16px] hover:text-green-600 focus:text-green-600 transition-all'}>Home</NavLink></li>
-                <li><NavLink to='/find_job' className={'font-semibold font-medium text-[16px] hover:text-green-600 focus:text-green-600 transition-all'}>Find Job</NavLink></li>
-                <li><NavLink to='/company' className={'font-semibold font-medium text-[16px] hover:text-green-600 focus:text-green-600 transition-all'}>Campany</NavLink></li>
-                <li><NavLink to='/candidate' className={'font-semibold font-medium text-[16px] hover:text-green-600 focus:text-green-600 transition-all'}>Candidate</NavLink></li>
-                <li><NavLink to='/career_advice' className={'font-semibold font-medium text-[16px] hover:text-green-600 focus:text-green-600 transition-all'}>Career Advice</NavLink></li>
-                <li><NavLink to='/contact_us' className={'font-semibold font-medium text-[16px] hover:text-green-600 focus:text-green-600 transition-all'}>Contact Us</NavLink></li>
+                <li><NavLink to='/' className={'font-medium text-[16px] hover:text-green-600 focus:text-green-600 transition-all'}>Home</NavLink></li>
+                <li><NavLink to='/find_job' className={'font-medium text-[16px] hover:text-green-600 focus:text-green-600 transition-all'}>Find Job</NavLink></li>
+                <li><NavLink to='/company' className={'font-medium text-[16px] hover:text-green-600 focus:text-green-600 transition-all'}>Campany</NavLink></li>
+                <li><NavLink to='/candidate' className={'font-medium text-[16px] hover:text-green-600 focus:text-green-600 transition-all'}>Candidate</NavLink></li>
+                <li><NavLink to='/career_advice' className={'font-medium text-[16px] hover:text-green-600 focus:text-green-600 transition-all'}>Career Advice</NavLink></li>
+                <li><NavLink to='/contact_us' className={'font-medium text-[16px] hover:text-green-600 focus:text-green-600 transition-all'}>Contact Us</NavLink></li>
               </ul>
             </div>
             {/* buttons */}
